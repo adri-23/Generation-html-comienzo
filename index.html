@@ -1,0 +1,102 @@
+<!DOCTYPE html> <!--etiqueta de apertura, le dicen al navegador que estamos usando html5-->
+<html>
+    <!--En primera instancia solo se coloco la etiqueta, muestras etiquetas princiales son HEAD y BODY-->
+    <head> <!--INFORMACION QUE LEE EL NAVEGADOR-->      
+        <meta charset="UTF-8" /> <!--las etiquetas meta no tienen cierre , pero debemos cerrarlos."UTF-8": es para cuando usaremos ñ o acentos-->
+        <title>Mi primera pagina web</title> <!--nos permite poner el nombre de la PAGINA WEB-->
+    </head>
+    <body> <!--CONTENIDO QUE VE EL USUARIO-->
+        <h1> Hola mi nombre es adriana</h1> <!--H1=ENCABEZADO. poscicionamiento en la red(es el primer texto que vez en una pagina)-->
+        <h2> Hola, soy un h2</h2> <!--CONFORME VA SUBIENDO EL H DE 2, 3, 4, EL TEXTO ES MAS PEQUEÑO-->
+        <h3> Hola, soy un h3</h3>
+        <h4> Hola, soy un h4</h4>
+        <h5> Hola, soy un h5</h5>
+        <h6> Hola, soy un h6</h6>
+
+        <h3>Tipos de textos:</h3> <!--ENCABEZADO Y COMO ES H3, NO ES TAN GRANDE EL TEXTO-->
+        HOLA SOY UN TEXTO QUE NO ESTA DENTRO DE UN PARRAFO <!--PARRAFO DE TEXTO-->
+        <p>Esto es un parrafo</p> <!--ETIQUETA PARA TEXTOS-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur iure explicabo, quos sit deserunt hic nobis obcaecati dolor minima ipsum. A illum iusto omnis minima? Officiis, dicta vitae? Ad.</p>
+        <p>Lorem ipsun <strong> sit amet consectetur adipisicing elit.</strong>Pariatur exercitationem corrupti, architecto quae velit id illo sint quaerat praesentium perspiciatis itaque dicta consectetur illum, facere aliquid! Exercitationem veniam vero ea! </p>
+        <!-- <STRONG> ES PARA PONER EN NEGRITAS EL TEXTO O PARTE DE TEXTOS-->
+
+        <p>Lorem ipsum, dolor sit <em>amet consectetur adipisicing elit.</em>Suscipit <span>libero aspernatur</span>saepe doloribus officia labore aliquam nobis excepturi ipsa iste provident veniam aut asperiores, earum voluptate quos vitae odio tempore.</p>
+        <!--ponems lore y presionamos TAB, para que autocomplete con con un texto prueba-->
+        <!--EM: PONE EN (cursivas) PARRAFOS O PARTE DE PARRAFOS-->
+        <!--SPAN:permite diferenciar para utilizar en CSS y resaltarlas, pero directo en HTML no hace nada-->
+
+        <h3>Citas:</h3> <!--encabezado. CITAS EL TEXTO SE PONE HACIA LA DERECHA-->
+        <blockquote> <!--PARA HACER CITAS PONEMOS BLOCKQUOTE-->
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique omnis commodi provident mollitia cumque? Minus reprehenderit commodi velit illum, iste omnis delectus quibusdam necessitatibus fuga dolore corrupti architecto? Eveniet, repellendus!
+        </blockquote>
+
+        <hr /> <!--PARA PONER UNA LINEANEGRA HORIXNTAL, SEPARA PARRAFO -->
+        <!--por mas que pongamos un espacio en la etiqueta <p> no nos lo dara, debemos usar etiqueta <BR>-->
+        <p>
+            where does it come from?
+            <br/> <!--ETIQUETA DE ESPACIO, NO TIENE CIERRE Y LO TENEMOS QUE CERRAR DE UNA VEZ-->
+            <br/>
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+            <br/>
+            Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham
+        </p>
+        <h3>Lista ordenada</h3> <!--ENCABEZADO-->
+        <!--EXISTEN 2 TIPOS DE LISTAS: ORDENADAS Y DESORDENADAS-->
+        <ol> <!-- ETIQUETA DE LISTA ORDENADAS: aparecen enumeradas-->
+            <li>Perros</li> <!-- ETIQUETA PARA HACER LISTAS-->
+            <li>Gatos</li>
+            <li>Pajaros</li>
+            <li>Osos</li>
+            <li>Peces</li>
+        </ol> 
+
+        <h3>Lista desordenada</h3> <!--ENCABEZADO-->
+        <ul> <!--ETIQUETA LISTA DESORDENADAS: APARECEN CON PUNTOS LAS LISTAS-->
+            <li>perros</li> <!--ETIQUETA DE LISTA-->
+            <li>Gatos</li>
+            <li>Pajaros</li>
+            <li>Osos</li>
+            <li>Peces</li>
+        </ul>
+
+        <h3>Anidacion de listas</h3> <!--ENCABEZADO-->
+        <!--PODEMOS HACER SUBLISTAS, DENTRO DE LAS LISTAS-->
+        <ol> <!--LISTA ORDENADAS-->
+            <li>Perros: <!--LISTA-->
+                <ol> 
+                    <!--SUBLISTA ORDENADA-->
+                    <li>Chihuahua</li> 
+                    <li>Dalmata</li>
+                    <li>Husky</li>
+                    <li>Labrador</li>
+                    <li>Pastor Aleman</li>
+                </ol>
+            </li>
+            <li>Gatos <!--LISTA-->
+                <ul> 
+                    <!--SUBLISTA DESORDENADA-->
+                    <li>Blancos</li>
+                    <li>Negros</li>
+                    <li>Pardos</li>
+                </ul>
+            </li>
+            <li>Pajaros</li>
+            <li>Osos</li>
+            <li>Peces</li>
+        </ol> <!--CERRAMOS LISTA ORDENADA-->
+
+        <hr/> <!--PONEMOS LINEA NEGRITA PARASEPARAR-->
+        <h3>Imagen:</h3> <!--SUBTEMA NO TAN GRANDE YA QUE ES H3-->
+        <!--IMAGEN Y PROPIEDADES-->
+        <!--PAR AGREGAR IMAGEN DE INTERNET. AGREGAMOS ULR DE LA IMAGEN-->
+        <img src=https://cdn.pixabay.com/photo/2014/07/31/22/10/white-bengal-tiger-406994_960_720.jpg alt="imagen bonita" title="tigre" width="400" />
+        <!--ATRIBUTO ALT:DESCRPCION-->
+        <!--TITLE ATRIBUTO: AGREGAR UN TITULO A LA IMAGEN-->
+        <!--WIDTH ATRIBUTO: altura de imagen, HEIGHT ATRIBUTO:ancho de la imagen-->
+
+        <!--PARA AGREGAR IMAGEN DESCARGADA, LA AGREGAMOS A LA CARPETA QUE ESTAMOS TRABAJANDO
+        -PONEMOS NOMBRE DE LA IMGEN Y LA ALTURA-->
+        <img src="colibri.jpg" width="300" />
+    </body>
+</html>
